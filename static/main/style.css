@@ -1,0 +1,82 @@
+.root {
+    font-size: larger;
+}
+.link {
+    color: #5993bb;
+}
+.link:hover {
+    color: black;
+    background:#5993bb;
+    border-radius:4px;
+    padding:10px 40px;
+    border:0;
+}
+#sidebar {
+    width:220px;
+    height: 450px;
+    padding:30px 20px 0 0;
+    float:left;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin: 20px 20px 20px 20px;
+}
+
+#content {
+    padding:0 100px;
+    overflow:hidden;
+}
+ul.bar {
+    background: #5993bb;
+}
+.link-dropdown {
+    color: black;
+}
+.link-dropdown:hover {
+    color: black;
+}
+#about {
+    width: 80%;
+    height: 100%;
+    padding:20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#profile-change {
+    width: 80%;
+    height: 100%;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+img.main-image {
+    width: 300px;
+}
+img.additional-image {
+    width: 180px;
+}
+#by_rubric {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#rubrics {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.style-image {
+    width: 96px;
+    height: 96px;
+}

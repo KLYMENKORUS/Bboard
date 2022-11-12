@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Активация выполнена{% endblock %}
+
+{% block content %}
+    <div id="profile-change">
+        <h3>Активация</h3>
+        {% if user.username %}
+            <p>Пользователь с ником {{ user.username }}, успешно активирован</p>
+            <p><a class="nav-link" href="{% url 'main:login' %}">Войти на сайт</a></p>
+        {% else %}
+            <p>Пользователь с именем {{ user.first_name }}, успешно активирован</p>
+            <p><a class="nav-link" href="{% url 'main:login' %}">Войти на сайт</a></p>
+        {% endif %}
+    </div>
+{% endblock %}

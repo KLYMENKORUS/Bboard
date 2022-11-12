@@ -1,0 +1,11 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Ошибка при активации{% endblock %}
+
+{% block content %}
+    <div id="profile-change">
+        <h3>Активация</h3>
+        <p>Активация пользователя с ткаим именем пошла неудачно.</p>
+        <p><a class="nav-link" href="{% url 'main:register' %}">Зарегистрироваться повторно</a></p>
+    </div>
+{% endblock %}

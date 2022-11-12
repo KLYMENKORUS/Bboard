@@ -1,0 +1,15 @@
+{% extends 'main/base.html' %}
+{% load bootstrap4 %}
+
+{% block title %}Правка личных данных{% endblock title %}
+
+{% block content %}
+    <div id="profile-change">
+        <h3>Правка личных данных пользователя {{ user.username }}</h3>
+        <form action="" method="post">
+            {% csrf_token %}
+            {% bootstrap_form form layout='horizontal' %}
+            {% buttons submit='Сохранить' %}{% endbuttons %}
+        </form>
+    </div>
+{% endblock %}

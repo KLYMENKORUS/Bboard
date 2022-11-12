@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+{% load bootstrap4 %}
+
+{% block title %}Удаление пользователя{% endblock %}
+
+{% block content %}
+    <div id="profile-change">
+        <h3>Удаление пользователя {{ object.username }}</h3>
+        <form action="" method="post">
+            {% csrf_token %}
+            {% buttons submit='Удалить' %}
+                <a class="btn btn-success" href="{% url 'main:profile' %}">Отмена</a>
+            {% endbuttons %}
+        </form>
+    </div>
+{% endblock %}
